@@ -54,10 +54,22 @@ const mostrarCard = (pokemon) => {
     ${pokemon.special}k`
     const defense = clone.querySelectorAll(".card-footer-social h3")[2].textContent = `
     ${pokemon.defense}k`
-
+    const siguientePokemon = clone.getElementById('siguiente')
     fragment.appendChild(clone)
     flex.appendChild(fragment)
+
+    const mostrarOtroPokemon = () => {
+        window.location.reload()
+    }
+
+    siguientePokemon.onclick = () => {
+        mostrarOtroPokemon()
+    }
 }
+
+
+
+
 
 
 

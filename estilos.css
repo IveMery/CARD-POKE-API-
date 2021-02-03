@@ -130,4 +130,14 @@ body {
   font-weight: 700;
   font-size: 1.2rem;
 }
+
+#siguiente {
+  background-color: var(--dark-cyan);
+  color: var(--very-dark);
+  border-radius: 50px;
+  width: 180px;
+  height: 60px;
+  margin-left: 20px;
+  border: 1px solid white;
+}
 /*# sourceMappingURL=estilos.css.map */
